@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<library xmlns="https://open.law/schemas/library" xmlns:codified="https://open.law/schemas/codified" xmlns:codify="https://open.law/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <heading>Law Library</heading>
+  <meta>
+    <description/>
+    <contact>
+      <email>help@openlawlib.org</email>
+    </contact>
+    <canonical-urls>
+      <xml-bulk>https://github.com/oll-demo-repos/cityofbaltimore-law-xml</xml-bulk>
+      <html-bulk>https://github.com/oll-demo-repos/cityofbaltimore-law-html</html-bulk>
+      <static-assets>https://github.com/oll-test-repos/openlawlibrary-law-static-assets</static-assets>
+      <html/>
+    </canonical-urls>
+    <history-start>2022-08-01</history-start>
+    <build xmlns:cache="https://open.law/schemas/cache" xmlns:citations="https://open.law/schemas/citations" xmlns:macro="https://open.law/schemas/macro" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+      <repositories>
+        <repository name="cityofbaltimore/law-xml" commit="6d9538dc370e0b1d7d003a60546c71d00bfe3eab"/>
+      </repositories>
+      <platform version="2.6.0" reproducible="false"/>
+      <build-date>2022-09-02</build-date>
+      <codified-date>0001-01-02</codified-date>
+    </build>
+  </meta>
+  <xi:include href="./us/md/cities/baltimore/code/index.xml"/>
+</library>
